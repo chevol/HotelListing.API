@@ -1,5 +1,0 @@
-2023-01-15 00:13:39.806 +07:00 [INF] Now listening on: https://localhost:7117
-2023-01-15 00:13:39.837 +07:00 [INF] Now listening on: http://localhost:5223
-2023-01-15 00:13:39.839 +07:00 [INF] Application started. Press Ctrl+C to shut down.
-2023-01-15 00:13:39.840 +07:00 [INF] Hosting environment: Development
-2023-01-15 00:13:39.840 +07:00 [INF] Content root path: /Users/the_gh0st/Development/HotelListing.API/HotelListing.API
