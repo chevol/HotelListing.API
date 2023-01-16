@@ -18,6 +18,7 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Remove="Serilog.AspNetCore" />
@@ -26,8 +27,21 @@
 		<None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
 		<None Remove="Microsoft.EntityFrameworkCore.Tools" />
 		<None Remove="Data\" />
+		<None Remove="Models\" />
+		<None Remove="Models\Country\" />
+		<None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+		<None Remove="Configurations\" />
+		<None Remove="Models\Hotel\" />
+		<None Remove="Repository\" />
+		<None Remove="Contracts\" />
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Data\" />
+		<Folder Include="Models\" />
+		<Folder Include="Models\Country\" />
+		<Folder Include="Configurations\" />
+		<Folder Include="Models\Hotel\" />
+		<Folder Include="Repository\" />
+		<Folder Include="Contracts\" />
 	</ItemGroup>
 </Project>
