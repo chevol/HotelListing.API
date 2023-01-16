@@ -8,8 +8,8 @@
 	<PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
 	<PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
 		<PackageReference Include="Serilog.Sinks.Seq" Version="5.2.2" />
 		<PackageReference Include="Serilog.Expressions" Version="3.4.1" />
@@ -19,6 +19,7 @@
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Remove="Serilog.AspNetCore" />
@@ -34,6 +35,7 @@
 		<None Remove="Models\Hotel\" />
 		<None Remove="Repository\" />
 		<None Remove="Contracts\" />
+		<None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Data\" />
