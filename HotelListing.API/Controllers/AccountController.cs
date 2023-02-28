@@ -9,8 +9,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HotelListing.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class AccountController : ControllerBase
     {
         private readonly IAuthManager _authManager;
