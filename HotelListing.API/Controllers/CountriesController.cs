@@ -12,8 +12,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HotelListing.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class CountriesController : ControllerBase
     {
         private readonly IMapper _mapper;

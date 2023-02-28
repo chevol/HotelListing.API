@@ -3,8 +3,8 @@
 namespace HotelListing.API.Controllers;
 
 [ApiController]
-[Route("v{version:apiVersion}/[controller]")]
-[ApiVersion("3.0")]
+[Route("api/v{version:apiVersion}/[controller]")]
+[ApiVersion("1.0")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
