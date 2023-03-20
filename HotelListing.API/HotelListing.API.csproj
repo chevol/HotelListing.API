@@ -47,7 +47,6 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Data\" />
-		<Folder Include="Models\" />
 		<Folder Include="Models\Country\" />
 		<Folder Include="Configurations\" />
 		<Folder Include="Models\Hotel\" />
