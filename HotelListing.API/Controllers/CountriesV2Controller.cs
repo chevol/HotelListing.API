@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using HotelListing.API.Contracts;
+using HotelListing.API.Core.Contracts;
 using HotelListing.API.Data;
-using HotelListing.API.Exceptions;
-using HotelListing.API.Models;
-using HotelListing.API.Models.Country;
-using HotelListing.API.Repository;
+using HotelListing.API.Core.Exceptions;
+using HotelListing.API.Core.Models;
+using HotelListing.API.Core.Models.Country;
+using HotelListing.API.Core.Repository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace HotelListing.API.Controllers
+namespace HotelListing.API.Core.Controllers
 {
     [Route("api/v{version:apiVersion}/countries")]
     [ApiController]
