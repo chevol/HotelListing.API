@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HotelListing.API.Contracts;
-using HotelListing.API.Models.Users;
+using HotelListing.API.Core.Contracts;
+using HotelListing.API.Core.Models.Users;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HotelListing.API.Controllers
+namespace HotelListing.API.Core.Controllers
 {
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
